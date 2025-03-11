@@ -51,6 +51,9 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 sudo apt-get update
 sudo apt-get install jenkins
 ```
+For mac -
+<img width="1519" alt="image" src="https://github.com/user-attachments/assets/b0ff0aca-744a-46cb-bea3-353de2fe006a" />
+After starting the Jenkins service, browse to http://localhost:8080 and follow the instructions to complete the installation. Also see the external materials for installation guidelines.
 
 **Note: ** By default, Jenkins will not be accessible to the external world due to the inbound traffic restriction by AWS. Open port 8080 in the inbound traffic rules as show below.
 
@@ -91,8 +94,6 @@ Create First Admin User or Skip the step [If you want to use this Jenkins instan
 Jenkins Installation is Successful. You can now starting using the Jenkins 
 
 <img width="990" alt="Screenshot 2023-02-01 at 11 14 13 AM" src="https://user-images.githubusercontent.com/43399466/215961440-3f13f82b-61a2-4117-88bc-0da265a67fa7.png">
-
-<img width="1519" alt="image" src="https://github.com/user-attachments/assets/b0ff0aca-744a-46cb-bea3-353de2fe006a" />
 
 
 ## Install the Docker Pipeline plugin in Jenkins:
